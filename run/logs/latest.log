@@ -1,0 +1,275 @@
+[15:26:07] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.18.1 with Fabric Loader 0.14.8
+[15:26:08] [main/INFO] (FabricLoader) Loading 55 mods:
+	- alienmogus 1.0-SNAPSHOT
+	- cardinal-components-base 3.0.0
+	- cardinal-components-entity 3.0.0
+	- cardinal-components-world 3.0.0
+	- fabric 0.46.6+1.18
+	- fabric-api-base 0.4.2+d7c144a865
+	- fabric-api-lookup-api-v1 1.5.3+d7c144a865
+	- fabric-biome-api-v1 6.0.2+d7c144a865
+	- fabric-blockrenderlayer-v1 1.1.10+3ac43d9565
+	- fabric-command-api-v1 1.1.7+d7c144a865
+	- fabric-commands-v0 0.2.6+b4f4f6cd65
+	- fabric-containers-v0 0.1.19+d7c144a865
+	- fabric-content-registries-v0 0.4.9+d7c144a865
+	- fabric-crash-report-info-v1 0.1.9+3ac43d9565
+	- fabric-data-generation-api-v1 1.1.4+d7c144a865
+	- fabric-dimensions-v1 2.1.10+a1d9bbf565
+	- fabric-entity-events-v1 1.4.6+d7c144a865
+	- fabric-events-interaction-v0 0.4.17+d7c144a865
+	- fabric-events-lifecycle-v0 0.2.9+d7c144a865
+	- fabric-game-rule-api-v1 1.0.11+d7c144a865
+	- fabric-gametest-api-v1 1.0.11+713c266865
+	- fabric-item-api-v1 1.3.1+691a79b565
+	- fabric-item-groups-v0 0.3.7+3ac43d9565
+	- fabric-key-binding-api-v1 1.0.9+d7c144a865
+	- fabric-keybindings-v0 0.2.7+b4f4f6cd65
+	- fabric-lifecycle-events-v1 1.4.13+713c266865
+	- fabric-loot-tables-v1 1.0.9+d7c144a865
+	- fabric-mining-level-api-v1 1.0.7+d7c144a865
+	- fabric-mining-levels-v0 0.1.12+b4f4f6cd65
+	- fabric-models-v0 0.3.4+d7c144a865
+	- fabric-networking-api-v1 1.0.19+d7c144a865
+	- fabric-networking-v0 0.3.6+b4f4f6cd65
+	- fabric-object-builder-api-v1 1.11.5+737332ce65
+	- fabric-object-builders-v0 0.7.13+d7c144a865
+	- fabric-particles-v1 0.2.10+526dc1ac65
+	- fabric-registry-sync-v0 0.9.2+ad01bfbd65
+	- fabric-renderer-api-v1 0.4.11+b0b66fc365
+	- fabric-renderer-indigo 0.4.15+6825030165
+	- fabric-renderer-registries-v1 3.2.10+b4f4f6cd65
+	- fabric-rendering-data-attachment-v1 0.3.5+d7c144a865
+	- fabric-rendering-fluids-v1 0.1.19+3ac43d9565
+	- fabric-rendering-v0 1.1.12+b4f4f6cd65
+	- fabric-rendering-v1 1.10.6+713c266865
+	- fabric-resource-conditions-api-v1 1.0.2+d7c144a865
+	- fabric-resource-loader-v0 0.4.15+8906aafd65
+	- fabric-screen-api-v1 1.0.8+d7c144a865
+	- fabric-screen-handler-api-v1 1.1.12+d7c144a865
+	- fabric-structure-api-v1 2.1.3+d7c144a865
+	- fabric-tag-extensions-v0 1.2.9+d7c144a865
+	- fabric-textures-v0 1.0.10+3ac43d9565
+	- fabric-tool-attribute-api-v1 1.3.9+fb3b57b465
+	- fabric-transfer-api-v1 1.5.10+c329913d65
+	- fabricloader 0.14.8
+	- java 17
+	- minecraft 1.18.1
+[15:26:08] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/gciar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/c1dc27696aa4006e492c2485c9ccbcb26045a971/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[15:26:08] [main/INFO] (FabricLoader/Mixin) Attempting to load Hot-Swap agent
+[15:26:09] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[15:26:09] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[15:26:09] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[15:26:12] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.properties file on the classpath
+[15:26:12] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[15:26:19] [main/WARN] (FabricLoader/Mixin) @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:client.WorldChunkMixin from mod fabric-lifecycle-events-v1::handler$zdc000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[15:26:25] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:26:27] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.2.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:132) ~[authlib-3.2.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:44) ~[authlib-3.2.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:153) ~[authlib-3.2.38.jar:?]
+	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:664) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:496) [minecraft-project-@-merged-named.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:178) [minecraft-project-@-merged-named.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.8.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.8.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.8.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:78) ~[authlib-3.2.38.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.2.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:113) ~[authlib-3.2.38.jar:?]
+	... 9 more
+[15:26:27] [Render thread/INFO] (Minecraft) Setting user: Player880
+[15:26:28] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[15:26:29] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.2.2 build 10
+[15:26:35] [Render thread/INFO] (Minecraft) Narrator library for x64 successfully loaded
+[15:26:36] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Renderer - Indigo, Fabric Content Registries (v0), Fabric Textures (v0), Fabric Rendering (v1), Fabric Events Interaction (v0), Fabric Mining Level API (v1), Fabric Screen API (v1), Fabric Lifecycle Events (v1), Fabric Screen Handler API (v1), Fabric API Lookup API (v1), Fabric Game Test API (v1), Fabric API, Fabric Containers (v0), Fabric Item API (v1), Fabric Renderer Registries (v1), Fabric Models (v0), Fabric Structure API (v1), Fabric Object Builders (v0), Fabric BlockRenderLayer Registration (v1), Fabric Resource Conditions API (v1), Fabric Rendering Fluids (v1), Fabric Transfer API (v1), Fabric Commands (v0), Fabric Dimensions API (v1), Fabric Registry Sync (v0), Fabric Key Bindings (v0), Fabric Particles (v1), Fabric Data Generation API (v1), Fabric API Base, Fabric Loot Tables (v1), Fabric Entity Events (v1), Fabric Biome API (v1), Fabric Rendering (v0), Fabric Networking (v0), Fabric Resource Loader (v0), Fabric Item Groups (v0), Fabric Rendering Data Attachment (v1), Fabric Crash Report Info (v1), Fabric Renderer API (v1), Alienmogus, Fabric Mining Levels (v0), Fabric Loader, Fabric Game Rule API (v1), Fabric Tool Attribute API (v1), Fabric Key Binding API (v1), Fabric Command API (v1), Fabric Object Builder API (v1), Fabric Networking API (v1), Fabric Tag Extensions (v0), Fabric Events Lifecycle (v0))
+[15:26:37] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: alienmogus:blockstates/inverted_trapdoor.json: java.io.FileNotFoundException: alienmogus:blockstates/inverted_trapdoor.json
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=bottom,open=false,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=top,open=true,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=top,open=false,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=top,open=true,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=bottom,open=false,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=top,open=false,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=top,open=true,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=bottom,open=true,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=bottom,open=true,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=top,open=true,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=top,open=true,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=bottom,open=false,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=bottom,open=false,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=top,open=false,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=top,open=false,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=bottom,open=true,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=bottom,open=false,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=bottom,open=false,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=top,open=false,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=bottom,open=false,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=top,open=false,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=top,open=true,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=bottom,open=true,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=top,open=true,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=bottom,open=false,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=top,open=false,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=bottom,open=true,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=bottom,open=true,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=top,open=false,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=bottom,open=true,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=top,open=false,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=bottom,open=true,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=top,open=false,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=bottom,open=true,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=top,open=false,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=bottom,open=true,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=bottom,open=false,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=top,open=true,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=bottom,open=false,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=bottom,open=false,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=bottom,open=false,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=bottom,open=true,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=top,open=true,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=bottom,open=true,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=bottom,open=true,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=top,open=true,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=top,open=false,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=top,open=false,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=top,open=true,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=top,open=true,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=bottom,open=false,powered=true,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=bottom,open=false,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=bottom,open=true,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=top,open=false,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=top,open=false,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=bottom,open=true,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=bottom,open=true,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=top,open=true,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=bottom,open=false,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=top,open=true,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=south,half=top,open=true,powered=true,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=north,half=top,open=false,powered=false,waterlogged=true'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=west,half=bottom,open=false,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/inverted_trapdoor.json' missing model for variant: 'alienmogus:inverted_trapdoor#facing=east,half=top,open=true,powered=false,waterlogged=false'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: alienmogus:blockstates/bad_air.json: java.io.FileNotFoundException: alienmogus:blockstates/bad_air.json
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'alienmogus:blockstates/bad_air.json' missing model for variant: 'alienmogus:bad_air#'
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'alienmogus:inverted_trapdoor#inventory' referenced from: alienmogus:inverted_trapdoor#inventory: java.io.FileNotFoundException: alienmogus:models/item/inverted_trapdoor.json
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'alienmogus:bad_air#inventory' referenced from: alienmogus:bad_air#inventory: java.io.FileNotFoundException: alienmogus:models/item/bad_air.json
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'alienmogus:class_token#inventory' referenced from: alienmogus:class_token#inventory: java.io.FileNotFoundException: alienmogus:models/item/class_token.json
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'alienmogus:alien_token#inventory' referenced from: alienmogus:alien_token#inventory: java.io.FileNotFoundException: alienmogus:models/item/alien_token.json
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'alienmogus:crewmate_token#inventory' referenced from: alienmogus:crewmate_token#inventory: java.io.FileNotFoundException: alienmogus:models/item/crewmate_token.json
+[15:26:40] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'alienmogus:impostor_token#inventory' referenced from: alienmogus:impostor_token#inventory: java.io.FileNotFoundException: alienmogus:models/item/impostor_token.json
+[15:26:43] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Haut-parleurs (Realtek(R) Audio)
+[15:26:43] [Render thread/INFO] (Minecraft) Sound engine started
+[15:26:43] [Render thread/INFO] (Minecraft) Created: 1024x1024x0 minecraft:textures/atlas/blocks.png-atlas
+[15:26:43] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/signs.png-atlas
+[15:26:43] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[15:26:43] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[15:26:43] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[15:26:43] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[15:26:43] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15:26:45] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[15:26:45] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15:26:45] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[15:27:06] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:27:06] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:27:06] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:27:06] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:27:06] [Render thread/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:27:06] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Game Test API (v1), Fabric Tool Attribute API (v1))
+[15:27:07] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[15:27:07] [Render thread/INFO] (Minecraft) Loaded 1141 advancements
+[15:27:10] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:27:10] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 61 new biomes in 10.01 ms
+[15:27:10] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.18.1
+[15:27:10] [Server thread/INFO] (Minecraft) Generating keypair
+[15:27:11] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[15:27:14] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:27:14] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:27:14] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:27:14] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:27:14] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:27:14] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:27:15] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:27:15] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:27:16] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:27:16] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:27:17] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[15:27:17] [Render thread/INFO] (Minecraft) Preparing spawn area: 3%
+[15:27:18] [Render thread/INFO] (Minecraft) Preparing spawn area: 7%
+[15:27:20] [Render thread/INFO] (Minecraft) Preparing spawn area: 14%
+[15:27:20] [Render thread/INFO] (Minecraft) Preparing spawn area: 14%
+[15:27:20] [Render thread/INFO] (Minecraft) Preparing spawn area: 14%
+[15:27:20] [Render thread/INFO] (Minecraft) Preparing spawn area: 14%
+[15:27:20] [Render thread/INFO] (Minecraft) Preparing spawn area: 17%
+[15:27:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 25%
+[15:27:21] [Render thread/INFO] (Minecraft) Preparing spawn area: 31%
+[15:27:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 35%
+[15:27:22] [Render thread/INFO] (Minecraft) Preparing spawn area: 40%
+[15:27:23] [Render thread/INFO] (Minecraft) Preparing spawn area: 46%
+[15:27:23] [Render thread/INFO] (Minecraft) Preparing spawn area: 54%
+[15:27:24] [Render thread/INFO] (Minecraft) Preparing spawn area: 54%
+[15:27:24] [Render thread/INFO] (Minecraft) Preparing spawn area: 56%
+[15:27:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 56%
+[15:27:25] [Render thread/INFO] (Minecraft) Preparing spawn area: 68%
+[15:27:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 74%
+[15:27:26] [Render thread/INFO] (Minecraft) Preparing spawn area: 83%
+[15:27:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 83%
+[15:27:27] [Render thread/INFO] (Minecraft) Preparing spawn area: 83%
+[15:27:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 86%
+[15:27:28] [Render thread/INFO] (Minecraft) Preparing spawn area: 86%
+[15:27:29] [Render thread/INFO] (Minecraft) Preparing spawn area: 93%
+[15:27:29] [Render thread/INFO] (Minecraft) Time elapsed: 17449 ms
+[15:27:29] [Server thread/INFO] (Minecraft) Changing view distance to 2, from 10
+[15:27:29] [Server thread/INFO] (Minecraft) Changing simulation distance to 5, from 0
+[15:27:33] [Server thread/INFO] (Minecraft) Player880[local:E:0a3bdeb6] logged in with entity id 2 at (4.796181575351288, -60.0, -4.662033309135191)
+[15:27:33] [Server thread/INFO] (Minecraft) Player880 joined the game
+[15:27:35] [Render thread/INFO] (Minecraft) Loaded 7 advancements
+[15:27:37] [Render thread/INFO] (Minecraft) [STDOUT]: ALIEN
+[15:27:37] [Server thread/INFO] (Minecraft) [STDOUT]: ALIEN
+[15:27:44] [Render thread/INFO] (Minecraft) [STDOUT]: CREWMATE
+[15:27:44] [Server thread/INFO] (Minecraft) [STDOUT]: CREWMATE
+[15:27:53] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[15:27:54] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[15:27:54] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[15:27:54] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[15:28:51] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class com/github/galatynf/alienmogus/component/MyComponents
+[15:28:51] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class com/github/galatynf/alienmogus/component/AbilitiesComponent
+[15:28:51] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class com/github/galatynf/alienmogus/Alienmogus
+[15:28:51] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class com/github/galatynf/alienmogus/block/RegisterBlocks
+[15:28:51] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class com/github/galatynf/alienmogus/component/PlayerAbilitiesComponent
+[15:28:51] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class com/github/galatynf/alienmogus/block/InvertedTrapdoorBlock
+[15:28:51] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining mixin com/github/galatynf/alienmogus/mixin/CantJumpMixin
+[15:28:51] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class com/github/galatynf/alienmogus/block/BadAirBlock
+[15:28:51] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining mixin com/github/galatynf/alienmogus/mixin/CantOpenDoorMixin
+[15:28:52] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class com/github/galatynf/alienmogus/item/RegisterItems
+[15:28:52] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining mixin com/github/galatynf/alienmogus/mixin/CantOpenTrapdoorMixin
+[15:28:52] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class com/github/galatynf/alienmogus/enumRoles/EnumRole
+[15:28:52] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining mixin com/github/galatynf/alienmogus/mixin/ChokeInBadAirMixin
+[15:28:52] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining mixin com/github/galatynf/alienmogus/mixin/TeleportToIronBlockMixin
+[15:28:52] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining mixin com/github/galatynf/alienmogus/mixin/alien/AlienCrawlsFastMixin
+[15:28:52] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class com/github/galatynf/alienmogus/item/token/ClassTokenItem
+[15:28:52] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class com/github/galatynf/alienmogus/item/token/TokenAlienItem
+[15:28:52] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class com/github/galatynf/alienmogus/client/AlienmogusClient
+[15:28:52] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class com/github/galatynf/alienmogus/item/token/TokenCrewmateItem
+[15:28:52] [JDWP Transport Listener: dt_socket/INFO] (FabricLoader/Mixin/agent) Redefining class com/github/galatynf/alienmogus/item/token/TokenImpostorItem
+[15:29:23] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[15:29:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[15:29:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[15:29:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[15:29:23] [Render thread/INFO] (Minecraft) Stopping!
+[15:29:23] [Server thread/INFO] (Minecraft) Player880 lost connection: Disconnected
+[15:29:23] [Server thread/INFO] (Minecraft) Player880 left the game
+[15:29:23] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[15:29:23] [Server thread/INFO] (Minecraft) Stopping server
+[15:29:23] [Server thread/INFO] (Minecraft) Saving players
+[15:29:23] [Server thread/INFO] (Minecraft) Saving worlds
+[15:29:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[15:29:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[15:29:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[15:29:23] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[15:29:23] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:29:23] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:29:23] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved

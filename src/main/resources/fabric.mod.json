@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "alienmogus",
+  "version": "${version}",
+  "name": "Alienmogus",
+  "description": "When the alien is SUS",
+  "authors": [
+    "GalatynF"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/alienmogus/among-us.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.galatynf.alienmogus.client.AlienmogusClient"
+    ],
+    "main": [
+      "com.github.galatynf.alienmogus.Alienmogus"
+    ],
+    "cardinal-components": [
+      "com.github.galatynf.alienmogus.component.MyComponents"
+    ]
+  },
+  "mixins": [
+    "alienmogus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  },
+  "custom": {
+    "cardinal-components": [
+      "alienmogus:role"
+    ]
+  }
+}
