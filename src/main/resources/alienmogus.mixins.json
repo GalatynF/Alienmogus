@@ -8,8 +8,11 @@
     "CantOpenDoorMixin",
     "CantOpenTrapdoorMixin",
     "ChokeInBadAirMixin",
+    "ClassesMovementMixin",
     "TeleportToIronBlockMixin",
-    "alien.AlienCrawlsFastMixin"
+    "alien.AlienCantUseBlocksMixin",
+    "alien.AlienIsInvulnerableMixin",
+    "crewmate.CrewmateAdrenalinMixin"
   ],
   "client": [
   ],
