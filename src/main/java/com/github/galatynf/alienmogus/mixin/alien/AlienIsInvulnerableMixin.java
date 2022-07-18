@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(PlayerEntity.class)
 public class AlienIsInvulnerableMixin {
-    @Inject(method="damage", at=@At("HEAD"))
+    @Inject(method="damage", at=@At("HEAD"), cancellable = true)
     private void cancelDamage(DamageSource source, float amount, CallbackInfoReturnable<Boolean> cir) {
         if(MyComponents.ROLE.get(this).getRole().equals(EnumRole.ALIEN)) {
             cir.cancel();

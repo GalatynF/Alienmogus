@@ -17,7 +17,7 @@ import net.minecraft.world.World;
 
 public class InvertedTrapdoorBlock extends TrapdoorBlock {
     public InvertedTrapdoorBlock() {
-        super(FabricBlockSettings.of(Material.METAL).strength(5f, 5f).sounds(BlockSoundGroup.METAL));
+        super(FabricBlockSettings.of(Material.METAL).strength(5f, 5f).sounds(BlockSoundGroup.METAL).nonOpaque());
     }
 
     @Override
