@@ -8,10 +8,12 @@ import net.minecraft.nbt.NbtCompound;
 public class PlayerAbilitiesComponent implements AbilitiesComponent, AutoSyncedComponent {
     private final PlayerEntity provider;
     private EnumRole role;
+    private int invincibilityCooldownFromAlien;
 
     public PlayerAbilitiesComponent(PlayerEntity provider) {
         this.provider = provider;
         this.role = EnumRole.CREWMATE;
+        this.invincibilityCooldownFromAlien = 0;
     }
 
     @Override
@@ -22,6 +24,24 @@ public class PlayerAbilitiesComponent implements AbilitiesComponent, AutoSyncedC
     @Override
     public void setRole(EnumRole newRole) {
         this.role = newRole;
+    }
+
+    @Override
+    public int getInvincibilityCooldown() {
+        return this.invincibilityCooldownFromAlien;
+    }
+
+    @Override
+    public void decrementInvincibilityCooldown() {
+        if(this.invincibilityCooldownFromAlien > 0) {
+            this.invincibilityCooldownFromAlien--;
+        }
+    }
+
+    @Override
+    public void resetInvincibilityCooldown() {
+        // 5 seconds
+        this.invincibilityCooldownFromAlien = 100;
     }
 
     @Override

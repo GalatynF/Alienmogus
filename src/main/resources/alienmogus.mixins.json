@@ -9,6 +9,7 @@
     "CantOpenTrapdoorMixin",
     "ChokeInBadAirMixin",
     "ClassesMovementMixin",
+    "MiscTickMixin",
     "TeleportToIronBlockMixin",
     "alien.AlienCantUseBlocksMixin",
     "alien.AlienIsInvulnerableMixin",

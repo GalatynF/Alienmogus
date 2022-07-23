@@ -6,4 +6,8 @@ import dev.onyxstudios.cca.api.v3.component.Component;
 public interface AbilitiesComponent extends Component {
     EnumRole getRole();
     void setRole(EnumRole role);
+
+    int getInvincibilityCooldown();
+    void decrementInvincibilityCooldown();
+    void resetInvincibilityCooldown();
 }
